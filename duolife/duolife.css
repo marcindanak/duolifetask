@@ -1,0 +1,165 @@
+html {
+  max-width: 885px;
+  margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  color: #a98f5e;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 20px 0px 0px 0px;
+}
+
+h2 {
+  color: #25033a;
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+.date {
+  color: #707070;
+  font-size: 15px;
+  font-weight: 300;
+  margin-top: 10px;
+  margin-bottom: 45px;
+}
+
+.inv {
+  margin-bottom: 35px;
+}
+
+p {
+  color: #4c4c4c;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+span {
+  color: #25033a;
+  font-weight: bold;
+}
+
+#łg,
+#tm {
+  margin-bottom: 12px;
+}
+
+button {
+  position: relative;
+  background-color: #25033a;
+  color: white;
+  font-size: 15px;
+  font-weight: 100;
+  height: 45px;
+  width: 250px;
+  border: 0px;
+  padding: 0px;
+  margin: 25px 0px 35px 0px;
+  cursor: pointer;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.bar {
+  position: absolute;
+  top: 0;
+  width: 15%;
+  height: 100%;
+  background-color: #4e1870;
+  transform: translateY(120%);
+  z-index: -1;
+  transition: transform 0.3s;
+}
+
+.one {
+  left: 0;
+  transition-delay: 0.3s;
+}
+
+.two {
+  left: 20%;
+  transition-delay: 0.1s;
+}
+
+.three {
+  left: 40%;
+  transition-delay: 0.2s;
+}
+
+.four {
+  left: 60%;
+}
+
+.five {
+  left: 80%;
+  transition-delay: 0.3s;
+}
+
+button:hover .bar {
+  transform: translateY(0) scale(1.8);
+}
+
+.image-container {
+  background-image: url("img/Group\ 12.png");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+}
+
+.img-text {
+  margin-top: 114px;
+  margin-left: 60px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.img-small-text {
+  margin-top: 20px;
+  margin-left: 60px;
+  font-size: 15px;
+}
+
+.agenda-container {
+  display: flex;
+}
+
+.kolumna {
+  display: flex;
+  flex-direction: column;
+}
+
+.agenda-item {
+  margin-bottom: 25px;
+  width: 135px;
+  text-align: right;
+  font-size: 15px;
+  font-weight: 300;
+  color: #4c4c4c;
+}
+
+.agenda {
+  font-size: 15px;
+  font-weight: 300 bold;
+  color: #25033a;
+  margin-bottom: 25px;
+  margin-left: 15px;
+}
+
+.imie {
+  margin-bottom: 25px;
+  margin-left: 15px;
+  color: #4c4c4c;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 15px;
+}
+
+#txt {
+  margin: 0px 0px 35px 0px;
+}
